@@ -1,8 +1,8 @@
 ---
 title: All AI Builder credits have been consumed
 description: Provides a resolution for the issue that all AI Builder credits have been consumed in Microsoft Power Platform.
-ms.reviewer: chplanty, cdbellar
-ms.date: 09/18/2023
+ms.reviewer: chplanty
+ms.date: 10/13/2023
 ms.subservice: 
 ms.author: antode
 author: Antoine2F
@@ -126,16 +126,18 @@ You need to be the administrator of your environment to perform these actions.
 
 ## AI Builder purchase takes time, and I urgently need to unblock my flow or app. What can I do?
 
-You can find the **Request extension** button to add 200,000 extension credits for the current month.
+You can find the **Request extension** button to add 200,000 free extension credits for the current month.
 
 - On the AI Builder page, you might find the **Request extension** button in the "You've consumed all your AI Builder credits" overage banner.
 - In the Power Platform admin center, you might find the **Request extension** button in the "Some environments have consumed all or almost all AI Builder credits" banner.
 
 > [!NOTE]
 >
+> - These extension credits are free of charge.
 > - These credits can't be allocated or assigned and can be used directly by any environment in overage.
 > - The number of extension requests per month and per year is limited.
 > - Each extension request sends a notification email to the Power Platform admin informing that extension credits have been requested and granted.
+> - Clicking the 'Request an Extension' button directly performs the request. There is no intermediate window.
 > - If the **Allow users to consume unassigned credit** setting is disabled in the Power Platform admin center, the environment without assigned credits is blocked, and extension credits won't help. You can go to the Power Platform admin center, select **Settings**, and then open the **AI Builder credit** page to enable this setting.
 
 ## Resources
